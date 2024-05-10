@@ -106,7 +106,7 @@ html {
 }
 @media screen and (max-width: 600px) {
   .section-heading {
-    font-size: 1.8em;
+    font-size: 2.1em;
   }
   .sub-heading {
     font-size: 1em;
@@ -135,10 +135,10 @@ html {
 
 @media screen and (max-width: 600px) {
   .carousel-item .banner1 {
-    content: url("../img/banners/desktop_banner1.jpg");
+    content: url("../img/banners/mobile_banner1.jpg");
   }
   .carousel-item .banner2 {
-    content: url("../img/banners/desktop_banner1.jpg");
+    content: url("../img/banners/mobile_banner1.jpg");
   }
 }
 
@@ -477,4 +477,9 @@ html {
     padding: 0 1.2em;
     font-size: 0.8em;
   }
+}
+
+.modal_logo {
+  background-color: #3a3a3a !important;
+  padding: 10px !important;
 }
